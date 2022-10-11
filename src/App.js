@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+// Import de mes autre composant 
+import TheHeader from './components/Header/TheHeader';
+import TheFooter from './components/Footer/TheFooter';
+
+// import de mes modules
+import { Outlet } from 'react-router';
+
+// import de mon CSS 
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <TheHeader />
+      <div>
+        {/* je rend uniquement Outlet qui gere le routing  */}
+        <Outlet />
+      </div>
+      <TheFooter />
     </div>
   );
 }
