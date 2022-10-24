@@ -1,9 +1,9 @@
 
 function ErrorPage() {
   return (
-    <h1>
-    ErrorPage 
-    </h1>
+    <div className="flex-fill b3">
+      <h1>ErrorPage </h1>
+    </div>
   )
 
 }

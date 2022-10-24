@@ -1,0 +1,30 @@
+// les bases de mon css 
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--text-color-2);
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+// taille de la boxe tout inclus 
+*{
+  box-sizing: border-box;
+}
+
+ul{
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+
+li{
+  color: var(--primary);
+}
+img{
+  max-width: 100%;
+}

@@ -1,3 +1,7 @@
+//!  ce fichier gére l'affichage des pages.
+//!  il est appelé sur app.js
+//!  avec le routeur ci dessous il indique quel page dois être afficher 
+
 // import module 
 import { createBrowserRouter } from "react-router-dom";
 

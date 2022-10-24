@@ -1,8 +1,9 @@
+import TheContent from "../../components/Content.js//TheContent"
 // import de mes composants 
 function Homepage() {
   return (
-    <div>
-    <h1>Homepage</h1>
+    <div className="flex-fill b3">
+    <TheContent />
     </div>
   )
 

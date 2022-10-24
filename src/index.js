@@ -1,6 +1,6 @@
 import React, {StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import '../src/asset/styles/index.scss';
 import {RouterProvider} from 'react-router-dom'
 import reportWebVitals from './reportWebVitals';
 import { router } from './router/router';
