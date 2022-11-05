@@ -9,10 +9,10 @@ function TheFooter() {
   return (
     <footer className={style.footer}>
       <div>
-        <p>The Footer</p>
         <Link to="/">
           <img src={logo} alt="Logo de Kasa"></img>{" "}
         </Link>
+        <p>© 2020 Kasa. All rights reserved</p>
       </div>
     </footer>
   );

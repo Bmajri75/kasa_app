@@ -1,6 +1,15 @@
 .header {
   padding: 10px 80px;
+  color: var(--primary);
   img{
     width: 100px;
   } 
+  
+  a{
+    color: var(--primary);
+    text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
 }
