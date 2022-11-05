@@ -1,26 +1,32 @@
-// Mes import 
-import { Link } from 'react-router-dom';
+// Mes import
+import { Link } from "react-router-dom";
 // import du style
-import styles from "./TheHeader.module.scss"
-import logo from "../../asset/images/forma_web/LOGO.jpg"
-
+import styles from "./TheHeader.module.scss";
+import logo from "../../asset/images/forma_web/LOGO.jpg";
 
 function TheHeader() {
-  return(
+  return (
     <header className={styles.header}>
-     <nav className='d-flex flex-row align-items-center'>
-      <div className='flex-fill' >
-         <img src={ logo } alt='Logo de Kasa'></img>
-      </div>
-      <ul className="d-flex">
-        <li> <Link to='/' className='mr-15'> Acceuil </Link></li>
-        <li>  <Link to='/propos'>À propos </Link> </li>
-      </ul>
-    </nav>
-     
-  </header>
-  )
- 
+      <nav className="d-flex flex-row align-items-center">
+        <div className="flex-fill">
+          <img src={logo} alt="Logo de Kasa"></img>
+        </div>
+        <ul className="d-flex">
+          <li>
+            {" "}
+            <Link to="/" className="mr-15">
+              {" "}
+              Acceuil{" "}
+            </Link>
+          </li>
+          <li>
+            {" "}
+            <Link to="/propos">À propos </Link>{" "}
+          </li>
+        </ul>
+      </nav>
+    </header>
+  );
 }
 
-export default TheHeader
+export default TheHeader;
