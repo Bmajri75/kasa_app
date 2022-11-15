@@ -1,0 +1,8 @@
+.section{
+  padding: 100px;
+  object-fit: contain;
+  img{
+    border: 1px solid var(--gray-1);
+    border-radius: 10px;
+  }
+}

@@ -5,4 +5,12 @@
   flex-direction: column;
   align-items: center;
   color: var(--text-color-1);
+  &_content{
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  }
+  .logo{
+    filter:brightness(10)
+  }
 }
