@@ -1,10 +1,12 @@
 .content{
   padding: 100px;
   object-fit: contain;
-  height: 340px ;
-  width: 340px;
+  
   img{
     border: 1px solid var(--gray-1);
     border-radius: 10px;
+    height: 340px ;
+    width: 340px;
   }
+
 }

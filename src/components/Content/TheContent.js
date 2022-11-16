@@ -1,11 +1,10 @@
 import TheGalery from "./Galery/TheGalery";
-import TheSection from "./Section/TheSection";
+import TheBanner from "./TheBanner/TheBanner.js";
 
 function Content() {
   return (
     <div className="flex-fill">
-      <h2>The Content</h2>
-      <TheSection />
+      <TheBanner />
       <TheGalery />
     </div>
   );

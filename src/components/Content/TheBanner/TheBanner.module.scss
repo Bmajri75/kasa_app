@@ -1,0 +1,28 @@
+.section{
+  padding: 50px 100px;
+  object-fit: contain;
+  img{
+    border: 1px solid var(--gray-1);
+    border-radius: 10px;
+  }
+  /* Chez vous, partout et ailleurs */
+.texte{
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 32%;
+  bottom: 68%;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 142.6%;
+  /* or 68px */
+  display: flex;
+  align-items: flex-end;
+  
+  color: #FFFFFF;
+  
+}
+}
