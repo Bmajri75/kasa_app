@@ -6,7 +6,10 @@ function TheGalery() {
     <div>
       <div className={style.content}>
         {datas.map((data) => (
-          <img src={data.cover} alt="teste"></img>
+          <div>
+            <img src={data.cover} alt="teste"></img>
+            <p className={style.titleName}>{data.title}</p>
+          </div>
         ))}
       </div>
     </div>

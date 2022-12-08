@@ -1,12 +1,18 @@
 .content{
-  padding: 100px;
-  object-fit: contain;
-  
+  background-color: var(--gray-2);
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(3, 350px);
+    grid-auto-columns: repeat(3, 350px) ;
+    gap: 30px;
+border-radius: 25px;
   img{
     border: 1px solid var(--gray-1);
     border-radius: 10px;
     height: 340px ;
     width: 340px;
   }
-
+.titleName{
+  color: blue;
+}
 }
