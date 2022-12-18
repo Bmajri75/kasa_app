@@ -1,18 +1,16 @@
-.content{
+.grid {
   background-color: var(--gray-2);
-    display: grid;
-    place-content: center;
-    grid-template-columns: repeat(3, 350px);
-    grid-auto-columns: repeat(3, 350px) ;
-    gap: 30px;
-border-radius: 25px;
-  img{
-    border: 1px solid var(--gray-1);
-    border-radius: 10px;
-    height: 340px ;
-    width: 340px;
+  display: grid;
+  place-content: center; // je centre les elements
+  grid-template-columns: repeat(3, 350px); // je veux 3 grille de 3 collones
+  grid-auto-columns: repeat(
+    3,
+    350px
+  ); // pareil pour les colonnes suplementaires
+  gap: 40px;
+  padding: 50px 0px;
+  border-radius: 25px;
+  .contentCard {
+    width: 1130px;
   }
-.titleName{
-  color: blue;
-}
 }

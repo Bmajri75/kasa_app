@@ -1,4 +1,4 @@
-// les bases de mon css 
+// les bases de mon css
 body {
   margin: 0;
   font-family: var(--font-family);
@@ -7,24 +7,27 @@ body {
   color: var(--text-color-2);
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   margin: 0;
 }
 
-// taille de la boxe tout inclus 
-*{
+// taille de la boxe tout inclus
+* {
   box-sizing: border-box;
 }
 
-ul{
+ul {
   list-style: none;
   padding-left: 0px;
   margin: 0px;
 }
 
-li{
+li {
   color: var(--primary);
 }
-img{
+img {
   max-width: 100%;
 }

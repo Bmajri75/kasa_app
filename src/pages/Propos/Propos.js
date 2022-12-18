@@ -1,11 +1,12 @@
-// import de mes composants 
+// import de mes composants
+import TheBanner from "../../components/Content/TheBanner/TheBanner.js";
+
 function Propos() {
   return (
     <div className="flex-fill b3">
-    <h1>Propos</h1>
+      <TheBanner />
     </div>
-  )
-
+  );
 }
 
-export default Propos
+export default Propos;

@@ -1,16 +1,11 @@
 import style from "./TheGalery.module.scss";
-import datas from "../../../datas/logements.json";
+import Recipe from "../Recipe/Recip.js";
 
 function TheGalery() {
   return (
-    <div>
-      <div className={style.content}>
-        {datas.map((data) => (
-          <div>
-            <img src={data.cover} alt="teste"></img>
-            <p className={style.titleName}>{data.title}</p>
-          </div>
-        ))}
+    <div className={style.contentCard}>
+      <div className={style.grid}>
+        <Recipe />
       </div>
     </div>
   );

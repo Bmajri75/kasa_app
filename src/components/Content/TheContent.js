@@ -1,11 +1,11 @@
 import TheGalery from "./Galery/TheGalery";
 import TheBanner from "./TheBanner/TheBanner.js";
-//import styles from "./TheContent.module";
+import style from "./TheContent.module.scss";
 
 function Content() {
   return (
     <div className="flex-fill container">
-      <div>
+      <div className={style.content}>
         <TheBanner />
         <TheGalery />
       </div>
