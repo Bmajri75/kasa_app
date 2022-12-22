@@ -1,12 +1,12 @@
 // Mes import
 import { Link } from "react-router-dom";
 // import du style
-import styles from "./TheHeader.module.scss";
+import style from "./TheHeader.module.scss";
 import logo from "../../asset/images/forma_web/LOGO.jpg";
 
 function TheHeader() {
   return (
-    <header className={styles.header}>
+    <header className={style.header}>
       <nav className="d-flex flex-row align-items-center">
         <div className="flex-fill">
           <img src={logo} alt="Logo de Kasa"></img>
