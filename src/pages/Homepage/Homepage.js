@@ -1,10 +1,10 @@
 // import de mes composants
-import TheContent from "../../components/Content/TheContent";
+import TheContentHomepage from "../../components/Content/TheContentPages/TheContentHomepage.js";
 
 function Homepage() {
   return (
     <div className="flex-fill">
-      <TheContent />
+      <TheContentHomepage />
     </div>
   );
 }

@@ -8,17 +8,18 @@
   /* Chez vous, partout et ailleurs */
   .texte {
     position: absolute;
-    left: 25%;
+    left: 30%;
     right: 25%;
-    top: 32%;
-    bottom: 68%;
+    top: 33%;
+    bottom: 67%;
+
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
     line-height: 142.6%;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     color: var(--text-color-1);
   }
 }

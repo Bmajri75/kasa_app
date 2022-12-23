@@ -1,11 +1,12 @@
 import style from "./TheBanner.module.scss";
-import image from "../../../asset/images/forma_web/IMG.jpg";
 
-function TheBanner() {
+function TheBanner({ image, text }) {
   return (
     <div className={style.section}>
-      <p className={style.texte}>Chez vous, partout et ailleurs</p>
-      <img src={image} alt="magnifique plage"></img>
+      <div>
+        <img src={image} alt="magnifique plage"></img>
+        <p className={style.texte}>{text}</p>
+      </div>
     </div>
   );
 }
