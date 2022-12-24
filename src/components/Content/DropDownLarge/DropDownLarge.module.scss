@@ -1,3 +1,16 @@
-content {
+.content {
   background-color: var(--primary);
+  height: 47px;
+  width: 1023px;
+  left: 0px;
+  top: 0px;
+  border-radius: 5px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  p {
+    color: var(--text-color-1);
+    font-weight: 500;
+    font-size: 24px;
+  }
 }

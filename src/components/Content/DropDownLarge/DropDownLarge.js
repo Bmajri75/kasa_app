@@ -1,13 +1,10 @@
-import Style from "./DropDownLarge.module.scss";
+import style from "./DropDownLarge.module.scss";
 
 function DropDown({ name, button }) {
   return (
-    <div>
-      <div className={Style.content}>
-        <p>
-          {name} {button}
-        </p>
-      </div>
+    <div className={`d-flex ${style.content}`}>
+      <p>{name}</p>
+      <img src={button} alt="button Drop"></img>
     </div>
   );
 }

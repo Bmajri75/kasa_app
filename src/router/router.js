@@ -7,7 +7,7 @@ import { createBrowserRouter } from "react-router-dom";
 
 // import des pages
 import App from "../App";
-import Propos from "../pages/Propos/Propos";
+import Apropos from "../pages/Apropos/Apropos";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import Homepage from "../pages/Homepage/Homepage";
 
@@ -25,8 +25,8 @@ export const router = createBrowserRouter([
         element: <Homepage />,
       },
       {
-        path: "/propos",
-        element: <Propos />,
+        path: "/Apropos",
+        element: <Apropos />,
       },
     ],
   },

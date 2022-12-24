@@ -21,7 +21,7 @@ function TheHeader() {
           </li>
           <li>
             {" "}
-            <Link to="/propos">À propos </Link>{" "}
+            <Link to="/Apropos">À propos </Link>{" "}
           </li>
         </ul>
       </nav>
