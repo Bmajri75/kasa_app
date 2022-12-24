@@ -7,9 +7,10 @@ import { createBrowserRouter } from "react-router-dom";
 
 // import des pages
 import App from "../App";
-import Apropos from "../pages/Apropos/Apropos";
-import ErrorPage from "../pages/ErrorPage/ErrorPage";
-import Homepage from "../pages/Homepage/Homepage";
+import Apropos from "../pages/Apropos/Apropos.js";
+import ErrorPage from "../pages/ErrorPage/ErrorPage.js";
+import Homepage from "../pages/Homepage/Homepage.js";
+import FicheLogement from "../pages/Logements/FicheLogement.js";
 
 // je cree et export mon router avec les routes
 export const router = createBrowserRouter([
@@ -27,6 +28,10 @@ export const router = createBrowserRouter([
       {
         path: "/Apropos",
         element: <Apropos />,
+      },
+      {
+        path: "/logement",
+        element: <FicheLogement />,
       },
     ],
   },
