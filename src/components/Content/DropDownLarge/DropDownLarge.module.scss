@@ -8,9 +8,27 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  margin-bottom: 40px;
   p {
     color: var(--text-color-1);
     font-weight: 500;
     font-size: 24px;
+  }
+  img {
+    animation: rotateButton, 2s;
+  }
+  .texteContent {
+    p {
+      text-align: justify;
+    }
+  }
+}
+
+@keyframes rotateButton {
+  from {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(0deg);
   }
 }
